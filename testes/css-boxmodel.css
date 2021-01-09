@@ -1,0 +1,79 @@
+
+
+header {
+     width: 800px;
+     height: 60px;
+     padding: 10px;
+     background: cadetblue;
+}
+
+header h1{
+     text-align: center;
+     color: #fff;
+     font-size: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-transform: uppercase;
+     font-weight: normal;
+}
+
+article {
+     width: 460px;
+     height: 200px;
+     padding: 10px;
+     
+     background-image: url(fp.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
+     
+     border-radius: 30px;
+     box-shadow: 0px 0px 20px blueviolet;
+
+     text-align: center;
+     margin-bottom: 10px;
+     margin-right: 20px;
+     float: left;
+     position: relative;
+     
+     
+}
+
+aside {
+     width: 300px;
+     height: 200px;
+     padding: 10px;
+     background: rgb(190, 87, 87);
+     text-align: center;
+     margin-bottom: 10px;
+     float: left;
+}
+
+footer {
+     width: 800px;
+     height: 60px;
+     padding: 10px;
+     clear: both;
+     background: tomato;
+}
+
+
+footer p{
+     text-align: center;
+     font-size: 18px;
+     color: #FFF;
+}
+
+.container{
+     width: 820px;
+     margin: 0 auto;
+     background: blue;
+}
+
+.conteudo {
+     width: 820px;
+     margin-top: 10px;
+     background: pink;
+     overflow: auto;
+     margin-bottom: 20px;
+}
