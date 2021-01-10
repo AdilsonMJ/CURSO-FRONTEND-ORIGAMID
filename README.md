@@ -5,13 +5,12 @@
 <h1 align="center"> CURSO FRONT END <a href="https://www.origamid.com.br">ORIGAMID :desktop_computer:</a> </h1>
 
 <h2> Inicio janeiro 2021</h2>
- <p> Curso aborda conteudos de frontend e design. </p>
- <p>Apesar do curso oferecer uma trilha a ser seguida, decidir cria a minha propria trilha com foco inicial em css e js</p>
+ <p> Curso aborda conteúdos de frontend e design. Apesar de o curso oferecer uma trilha a ser seguida, decidir cria a minha própria trilha com foco inicial em css e js</p>
 
 ## Ordem que estou seguindo do curso :clipboard:
 
-
-     *[Web Design Completo](Web Design Completo)
+<!--ts-->
+     *[Web Design Completo](#Web Design Completo)
      *[CSS](#CSS)
           *[CSS Avançado - Posicionamento](#CSS Avançado - Posicionamento)
           *[CSS Grid Layout](# CSS Grid Layout)
@@ -34,7 +33,5 @@
           *[UX Design Heuristicas](#UX Design Heuristicas)
           *[Tipografia Avançada](#Tipografia Avançada)
           *[Adobe XD](#Adobe XD)
+<!--te-->
 
-<h4 align="center"> 
-	🚀 Em construção...  🚧
-</h4>
