@@ -1,4 +1,6 @@
-
+<h6 align="center"> 
+:walking_man: Em Andamento...  
+</h6>
 
 <h1 align="center"> CURSO FRONT END <a href="https://www.origamid.com.br">ORIGAMID :desktop_computer:</a> </h1>
 
@@ -39,9 +41,7 @@ GRADE DO CURSO E HORAS
 	  -  Tipografia Avançada
 	  -  Adobe XD
 	  
-<h3 align="center"> 
-:walking_man: Em Andamento...  
-</h>
+
 
 ## Progresso... 
 
