@@ -59,4 +59,7 @@
   - [ ] UX Design Heuristicas
   - [ ] Tipografia Avançada
   - [ ] Adobe XD
+<<<<<<< HEAD
 
+=======
+>>>>>>> d552b5f92f56c983bddcda89a7b7df4f0d97fc65
