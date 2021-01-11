@@ -11,6 +11,8 @@
 - [ ] Produtos
 - [ ] Portfólio
 - [ ] Contato
+- [ ] Responsivel
+- [ ] JavaScript e Animações
 
 
 <h2 align="center"> 
