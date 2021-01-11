@@ -1,19 +1,18 @@
 <h6 align="center"> 
-:construction_worker_man: 	:construction: Em construção 	:construction:
+:construction-worker-man: 	:construction: Em construção 	:construction:
 </h6 >
 <h1 align="center"> BikCraft
 </h1>
 
 <h2 align="center" > Progresso... </h2>
 
-- [X] Home :heavy_check_mark:
-- [X] Sobre :heavy_check_mark:
-- [ ] Produtos
-- [ ] Portfólio
+- [x] Home :heavy-check-mark:
+- [x] Sobre :heavy-check-mark:
+- [x] Produtos :heavy-check-mark:
+- [x] Portfólio :heavy-check-mark:
 - [ ] Contato
 - [ ] Responsivel
 - [ ] JavaScript e Animações
-
 
 <h2 align="center"> 
 Screenshots 
@@ -31,4 +30,18 @@ Sobre
 </h4>
 <h4 align="center"> 
 <img src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/BikCraft/wireframe/screenshots/sobre.png" >
+</h4>
+
+<h4 align="center"> 
+Produtos 
+</h4>
+<h4 align="center"> 
+<img src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/BikCraft/wireframe/screenshots/sobre.png" >
+</h4>
+
+<h4 align="center"> 
+Portfólio 
+</h4>
+<h4 align="center"> 
+<img src="" >
 </h4>

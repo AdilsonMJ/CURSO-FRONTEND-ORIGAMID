@@ -2,99 +2,83 @@
 <html lang="pt-br">
    <head>
       <meta charset="utf-8" />
+      <title>Bikcraft - Portfólio</title>
       <link rel="stylesheet" href="../css/normalize.css" />
       <link rel="stylesheet" href="../css/reset.css" />
       <link rel="stylesheet" href="../css/grid.css" />
       <link rel="stylesheet" href="../css/style.css" />
-      <link rel="stylesheet" href="../css/sobre.css" />
-      <title>BikCraft - Sobre</title>
+      <link rel="stylesheet" href="../css/portfolio.css" />
    </head>
    <body>
       <header class="header">
          <div class="container">
             <a href="index.html" class="grid-4">
-               <img
-                  src="../arquivos-cliente/SVG/bikcraft-1.svg"
-                  alt="logo BikCraft"
-               />
+               <img src="../arquivos-cliente/img/bikcraft.svg" alt="Bikcraft" />
             </a>
-            <nav class="header-menu">
+            <nav class="grid-12 header-menu">
                <ul>
-                  <li><a href="sobre.html" class="menu-ativo">Sobre</a></li>
+                  <li><a href="sobre.html">Sobre</a></li>
                   <li><a href="produtos.html">Produtos</a></li>
-                  <li><a href="portfolio.html">Portfólio</a></li>
+                  <li>
+                     <a href="portfolio.html" class="menu-ativo">Portfólio</a>
+                  </li>
                   <li><a href="contato.html">Contato</a></li>
                </ul>
             </nav>
          </div>
       </header>
 
-      <section class="introducao-interna introducao-sobre">
-         <div>
-            <h1 class="subtitulo">Sobre</h1>
-            <p>Conheça mais sobre nossa historia</p>
+      <section class="interna-portfolio">
+         <div class="container">
+            <h1>Portfólio</h1>
+            <p>conheça os projetos que amamos mostrar</p>
          </div>
       </section>
 
-      <section class="container section-sobre">
-         <div class="grid-10 div-hismisvis">
-            <h3 class="subtitulo">história, missão e visão</h3>
+      <section class="container">
+         <blockquote class="quote-clientes">
             <p>
-               Lorem Ipsum is simply dummy text of the printing and typesetting
-               industry. Lorem Ipsum has been the industry's standard dummy text
-               ever since the 1500s, when an unknown printer took a galley of
-               type and scrambled it to make a type specimen book.
-               <br /><br />It has survived not only five centuries, but also the
-               leap into electronic typesetting, remaining essentially
-               unchanged.
+               “No mundo atual, a contínua expansão de nossa atividade cumpre um
+               papel essencial na formulação da gestão inovadora da qual fazemos
+               parte.”
             </p>
-         </div>
-         <div class="grid-6 div-valores">
-            <h3 class="grid-6 subtitulo">Valores</h3>
-            <ul>
-               <li>- Qualidade no processo</li>
-               <li>- Foco no cliente</li>
-               <li>- Diversão</li>
-               <li>- Preservação da natureza</li>
+            <cite>Barbara Moss</cite>
+         </blockquote>
+      </section>
+
+      <section class="portfolio">
+         <div class="container">
+            <ul class="portfolio-lista">
+               <li class="grid-8">
+                  <img
+                     src="../arquivos-cliente/img/portfolio/retro.jpg"
+                     alt="Bicicleta Retrô"
+                  />
+               </li>
+               <li class="grid-8">
+                  <img
+                     src="../arquivos-cliente/img/portfolio/passeio.jpg"
+                     alt="Bicicleta Passeio"
+                  />
+               </li>
+               <li class="grid-16">
+                  <img
+                     src="../arquivos-cliente/img/portfolio/esporte.jpg"
+                     alt="Bicicleta Esporte"
+                  />
+               </li>
             </ul>
          </div>
-         <div class="grid-16 div-img-sobre">
-            <img
-               src="../arquivos-cliente/img/equipe-bikcraft.jpg"
-               alt="equipe bikcraft"
-            />
-         </div>
       </section>
 
-      <section class="qualidade container">
-         <h2 class="subtitulo">Qualidade</h2>
-         <img
-            src="../arquivos-cliente/img/bikcraft-qualidade.svg"
-            alt="BikCraft Qualidade"
-         />
-         <ul class="qualidade-lista">
-            <li class="grid-1-3">
-               <h3>Durabilidade</h3>
-               <p>
-                  Ainda assim, existem dúvidas a respeito de como a necessidade
-                  de renovação das bikes.
-               </p>
-            </li>
-            <li class="grid-1-3">
-               <h3>Design</h3>
-               <p>
-                  Ainda assim, existem dúvidas a respeito de como a necessidade
-                  de renovação das bikes.
-               </p>
-            </li>
-            <li class="grid-1-3">
-               <h3>Sustentabilidade</h3>
-               <p>
-                  Ainda assim, existem dúvidas a respeito de como a necessidade
-                  de renovação das bikes.
-               </p>
-            </li>
-         </ul>
+      <section class="quebra">
+         <blockquote class="quote-externo container">
+            <p>
+               “o verdadeiro segredo da felicidade está em ter um genuíno
+               interesse por todos os detalhes da vida cotidiana.”
+            </p>
+            <cite>WILLIAM MORRIS</cite>
+         </blockquote>
       </section>
 
       <footer>
