@@ -6,10 +6,10 @@
 
 <h2 align="center" > Progresso... </h2>
 
-- [x] Home :heavy-check-mark:
-- [x] Sobre :heavy-check-mark:
-- [x] Produtos :heavy-check-mark:
-- [x] Portfólio :heavy-check-mark:
+- [x] Home 
+- [x] Sobre 
+- [x] Produtos 
+- [x] Portfólio 
 - [ ] Contato
 - [ ] Responsivel
 - [ ] JavaScript e Animações
