@@ -30,7 +30,7 @@ GRADE DO CURSO E HORAS
 -  JavaScript e JQuery
 -  React Completo
 -  Reduz com React
--  [WordPress
+-  WordPress
 	  -  WordPress Como CMS
 	  -  WordPress REST API Dogs
  	  -  WordPress REST API
