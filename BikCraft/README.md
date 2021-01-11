@@ -36,7 +36,7 @@ Sobre
 Produtos 
 </h4>
 <h4 align="center"> 
-<img src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/BikCraft/wireframe/screenshots/sobre.png" >
+<img src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/BikCraft/wireframe/screenshots/Produto.png" >
 </h4>
 
 <h4 align="center"> 
