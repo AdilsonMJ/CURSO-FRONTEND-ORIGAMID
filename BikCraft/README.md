@@ -4,7 +4,7 @@
 <h1 align="center"> BikCraft
 </h1>
 
-<h2> :arrows_counterclockwise:  Progresso... </h2>
+<h2 align="center" > Progresso... </h2>
 
 - [X] Home :heavy_check_mark:
 - [X] Sobre :heavy_check_mark:
