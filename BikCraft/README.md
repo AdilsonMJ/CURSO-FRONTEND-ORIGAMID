@@ -4,7 +4,7 @@
 <h1 align="center"> BikCraft
 </h1>
 
-<h2 align="center" > Progresso... </h2>
+<h2> Progresso... </h2>
 
 - [x] Home 
 - [x] Sobre 
@@ -43,5 +43,5 @@ Produtos
 Portfólio 
 </h4>
 <h4 align="center"> 
-<img src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/BikCraft/wireframe/screenshots/Produto.png" >
+<img src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/BikCraft/wireframe/screenshots/portfolio.png" >
 </h4>
