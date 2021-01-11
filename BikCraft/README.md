@@ -1,5 +1,5 @@
 <h6 align="center"> 
-:construction-worker-man: 	:construction: Em construção 	:construction:
+:construction: Em construção 	:construction:
 </h6 >
 <h1 align="center"> BikCraft
 </h1>
@@ -43,5 +43,5 @@ Produtos
 Portfólio 
 </h4>
 <h4 align="center"> 
-<img src="" >
+<img src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/BikCraft/wireframe/screenshots/Produto.png" >
 </h4>
