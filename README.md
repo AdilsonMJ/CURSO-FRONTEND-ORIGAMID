@@ -42,7 +42,7 @@ GRADE DO CURSO E HORAS
 
 ## Progresso e %...
 
--  [ ] Web Design Completo (62/80)
+-  [ ] Web Design Completo (66/80)
 -  [ ] CSS (0/4)
    -  [ ] CSS Avançado - Posicionamento (0/52)
    -  [ ] CSS Grid Layout (0/34)

@@ -16,6 +16,7 @@ cite {
 
 img {
    display: block;
+   max-width: 100%;
 }
 
 .subtitulo {
@@ -183,6 +184,10 @@ ul li a.menu-ativo {
 
 .produtos-lista li {
    background: #fec63e;
+}
+
+.produtos-lista li img{
+   margin: 0 auto;
 }
 
 .produtos-icon {
