@@ -10,7 +10,7 @@
 - [x] Sobre :heavy-check-mark:
 - [x] Produtos :heavy-check-mark:
 - [x] Portfólio :heavy-check-mark:
-- [ ] Contato
+- [x] Contato
 - [ ] Responsivel
 - [ ] JavaScript e Animações
 
