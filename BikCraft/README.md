@@ -14,6 +14,12 @@
 - [ ] Responsivel
 - [ ] JavaScript e Animações
 
+<h2 align="center"> 🛠 Tecnologias </h2>
+HTML /
+CSS /
+JavaScript
+
+
 <h2 align="center"> 
 Screenshots 
 </h2>
@@ -45,3 +51,11 @@ Portfólio
 <h4 align="center"> 
 <img src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/BikCraft/wireframe/screenshots/portfolio.png" >
 </h4>
+
+<h4 align="center"> 
+Contato 
+</h4>
+<h4 align="center"> 
+<img src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/BikCraft/wireframe/screenshots/contato.png" >
+</h4>
+
