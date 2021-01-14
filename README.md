@@ -1,6 +1,7 @@
 <h6 align="center"> 
-:walking-man: Em Andamento...  
+ Em Andamento...  
 </h6>
+
 
 <h1 align="center"> CURSO FRONT END <a href="https://www.origamid.com.br">ORIGAMID :desktop-computer:</a> </h1>
 
