@@ -1,9 +1,9 @@
 <h6 align="center"> 
- Em Andamento...  
+  Em Andamento...  
 </h6>
 
 
-<h1 align="center"> CURSO FRONT END <a href="https://www.origamid.com.br">ORIGAMID :desktop-computer:</a> </h1>
+<h1 align="center"> CURSO FRONT END <a href="https://www.origamid.com.br">ORIGAMID </a> </h1>
 
 <h2 align="center"> Inicio janeiro 2021</h2>
  <p> Curso aborda conteúdos de frontend e design. Apesar de o curso oferecer uma trilha a ser seguida, decidir cria a minha própria trilha com foco inicial em css e js</p>
