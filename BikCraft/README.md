@@ -11,7 +11,7 @@
 - [x] Produtos 
 - [x] Portfólio 
 - [x] Contato
-- [ ] Responsivel
+- [x] Responsivel
 - [ ] JavaScript e Animações
 
 <h2 align="center"> 🛠 Tecnologias </h2>
