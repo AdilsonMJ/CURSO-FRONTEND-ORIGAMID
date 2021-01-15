@@ -15,7 +15,7 @@ GRADE DO CURSO E HORAS
 
 <img align="center" src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/screenshots/Grade%20Do%20Curso.png"  >
 
-## Ordem que estou seguindo do curso :clipboard:
+<h2 align="center">Ordem que estou seguindo do curso :clipboard:</h2>
 
 -  Web Design Completo
 -  CSS
@@ -41,7 +41,7 @@ GRADE DO CURSO E HORAS
    -  Tipografia Avançada
    -  Adobe XD
 
-## Progresso e %...
+<h2 align="center">Progresso e %...</h2>
 
 -  [x] Web Design Completo (80/80) 
 -  [ ] CSS (0/4)
@@ -66,3 +66,7 @@ GRADE DO CURSO E HORAS
    -  [ ] UX Design Heuristicas (0/48)
    -  [ ] Tipografia Avançada (0/28)
    -  [ ] Adobe XD (0/28)
+
+<h2 align="center">Projetos finalizados</h2>
+<a href="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/tree/main/BikCraft">Web Design Completo </a>
+<img align="center" src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/screenshots/BikCraftGift.gif">
