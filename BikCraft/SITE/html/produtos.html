@@ -8,10 +8,13 @@
       <link rel="stylesheet" href="../css/style.css" />
       <link rel="stylesheet" href="../css/produtos.css" />
       <link rel="stylesheet" href="../css/responsivel.css" />
+      <script>
+         document.documentElement.classList.add("js");
+      </script>
       <title>BikCraft - Produtos</title>
    </head>
    <body>
-      <header class="header">
+      <header class="header" data-anime="200">
          <div class="container">
             <a href="index.html" class="grid-4">
                <img src="../arquivos-cliente/img/bikcraft.svg" alt="bikcraft" />
@@ -29,14 +32,14 @@
          </div>
       </header>
 
-      <section class="introducao-interna introducao-produtos">
+      <section class="introducao-interna introducao-produtos" data-anime="400">
          <div>
-            <h1 class="subtitulo">Produtos</h1>
-            <p>Conheça todos os nossos produtos</p>
+            <h1 data-anime="200" class="subtitulo">Produtos</h1>
+            <p data-anime="400">Conheça todos os nossos produtos</p>
          </div>
       </section>
 
-      <section class="container produto-item first-produto">
+      <section class="container produto-item first-produto" data-anime="600">
          <div class="grid-11">
             <img
                src="../arquivos-cliente/img/produtos/bikcraft-passeio-1.jpg"
@@ -57,7 +60,7 @@
             />
          </div>
          <div class="grid-8 produto-info">
-            <p>
+            <p data-anime="400">
                Contrary to popular belief, Lorem Ipsum is not simply random
                text. It has roots in a piece of classical Latin literature from
                45 BC, making it over 2000 years old.
@@ -71,7 +74,7 @@
          </div>
       </section>
 
-      <section class="container produto-item">
+      <section class="container produto-item" data-anime="800">
          <div class="grid-11">
             <img
                src="../arquivos-cliente/img/produtos/bikcraft-esporte-1.jpg"
@@ -92,7 +95,7 @@
             />
          </div>
          <div class="grid-8 produto-info">
-            <p>
+            <p data-anime="400">
                Contrary to popular belief, Lorem Ipsum is not simply random
                text. It has roots in a piece of classical Latin literature from
                45 BC, making it over 2000 years old.
@@ -106,7 +109,7 @@
          </div>
       </section>
 
-      <section class="container produto-item">
+      <section class="container produto-item" data-anime="1000">
          <div class="grid-11">
             <img
                src="../arquivos-cliente/img/produtos/bikcraft-retro-1.jpg"
@@ -127,7 +130,7 @@
             />
          </div>
          <div class="grid-8 produto-info">
-            <p>
+            <p data-anime="400">
                Contrary to popular belief, Lorem Ipsum is not simply random
                text. It has roots in a piece of classical Latin literature from
                45 BC, making it over 2000 years old.
@@ -141,7 +144,7 @@
          </div>
       </section>
 
-      <section class="orcamento">
+      <section class="orcamento" data-anime="1200">
          <div class="container">
             <h2 class="subtitulo-orcamento">Orçamento</h2>
             <form id="form-orcamento" class="grid-8 form">
@@ -162,7 +165,7 @@
                   >orcamento@bikcraft.com.br</span
                >
                <h3>Monte Sua bikcraft</h3>
-               <p>Escolha suas especificações:</p>
+               <p data-anime="400">Escolha suas especificações:</p>
                <ul>
                   <li>- cores</li>
                   <li>- Estilo</li>
@@ -173,12 +176,12 @@
          </div>
       </section>
 
-      <footer>
+      <footer data-anime="1400">
          <div class="footer">
             <div class="container">
                <div class="grid-8 footer-historia">
                   <h3 class="subtitulo">Nossa Historia</h3>
-                  <p>
+                  <p data-anime="400">
                      Contrary to popular belief, Lorem Ipsum is not simply
                      random text. It has roots in a piece of classical Latin
                      literature from 45 BC, making it over 2000 years old.
@@ -223,11 +226,14 @@
 
          <div class="copyright">
             <div class="container">
-               <p class="grid-12 copyright-p">
+               <p data-anime="400" class="grid-12 copyright-p">
                   @copyright 2021 BikCraft - Adilson magalhaes Jager
                </p>
             </div>
          </div>
       </footer>
+
+      <script src="../js/simple-anime.js"></script>
+      <script src="../js/script.js"></script>
    </body>
 </html>

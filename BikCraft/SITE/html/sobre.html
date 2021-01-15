@@ -8,10 +8,13 @@
       <link rel="stylesheet" href="../css/style.css" />
       <link rel="stylesheet" href="../css/sobre.css" />
       <link rel="stylesheet" href="../css/responsivel.css" />
+      <script>
+         document.documentElement.classList.add("js");
+      </script>
       <title>BikCraft - Sobre</title>
    </head>
    <body>
-      <header class="header">
+      <header class="header" data-anime="200">
          <div class="container">
             <a href="index.html" class="grid-4">
                <img
@@ -30,17 +33,17 @@
          </div>
       </header>
 
-      <section class="introducao-interna introducao-sobre">
+      <section class="introducao-interna introducao-sobre" data-anime="400">
          <div>
-            <h1 class="subtitulo">Sobre</h1>
-            <p>Conheça mais sobre nossa historia</p>
+            <h1 data-anime="200" class="subtitulo">Sobre</h1>
+            <p data-anime="400">Conheça mais sobre nossa historia</p>
          </div>
       </section>
 
-      <section class="container section-sobre">
+      <section class="container section-sobre" data-anime="600">
          <div class="grid-10 div-hismisvis">
             <h3 class="subtitulo">história, missão e visão</h3>
-            <p>
+            <p data-anime="400">
                Lorem Ipsum is simply dummy text of the printing and typesetting
                industry. Lorem Ipsum has been the industry's standard dummy text
                ever since the 1500s, when an unknown printer took a galley of
@@ -67,7 +70,7 @@
          </div>
       </section>
 
-      <section class="qualidade container">
+      <section class="qualidade container" data-anime="800">
          <h2 class="subtitulo">Qualidade</h2>
          <img
             src="../arquivos-cliente/img/bikcraft-qualidade.svg"
@@ -76,21 +79,21 @@
          <ul class="qualidade-lista">
             <li class="grid-1-3">
                <h3>Durabilidade</h3>
-               <p>
+               <p data-anime="400">
                   Ainda assim, existem dúvidas a respeito de como a necessidade
                   de renovação das bikes.
                </p>
             </li>
             <li class="grid-1-3">
                <h3>Design</h3>
-               <p>
+               <p data-anime="400">
                   Ainda assim, existem dúvidas a respeito de como a necessidade
                   de renovação das bikes.
                </p>
             </li>
             <li class="grid-1-3">
                <h3>Sustentabilidade</h3>
-               <p>
+               <p data-anime="400">
                   Ainda assim, existem dúvidas a respeito de como a necessidade
                   de renovação das bikes.
                </p>
@@ -98,12 +101,12 @@
          </ul>
       </section>
 
-      <footer>
+      <footer data-anime="1000">
          <div class="footer">
             <div class="container">
                <div class="grid-8 footer-historia">
                   <h3 class="subtitulo">Nossa Historia</h3>
-                  <p>
+                  <p data-anime="400">
                      Contrary to popular belief, Lorem Ipsum is not simply
                      random text. It has roots in a piece of classical Latin
                      literature from 45 BC, making it over 2000 years old.
@@ -148,11 +151,14 @@
 
          <div class="copyright">
             <div class="container">
-               <p class="grid-12 copyright-p">
+               <p data-anime="400" class="grid-12 copyright-p">
                   @copyright 2021 BikCraft - Adilson magalhaes Jager
                </p>
             </div>
          </div>
       </footer>
+
+      <script src="../js/simple-anime.js"></script>
+      <script src="../js/script.js"></script>
    </body>
 </html>

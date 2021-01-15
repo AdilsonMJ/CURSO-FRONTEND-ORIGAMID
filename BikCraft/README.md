@@ -6,19 +6,18 @@
 
 <h2> Progresso... </h2>
 
-- [x] Home 
-- [x] Sobre 
-- [x] Produtos 
-- [x] Portfólio 
-- [x] Contato
-- [x] Responsivel
-- [ ] JavaScript e Animações
+-  [x] Home
+-  [x] Sobre
+-  [x] Produtos
+-  [x] Portfólio
+-  [x] Contato
+-  [x] Responsivel
+-  [X] JavaScript e Animações
 
 <h2 align="center"> 🛠 Tecnologias </h2>
 HTML /
 CSS /
 JavaScript
-
 
 <h2 align="center"> 
 Screenshots 
@@ -58,4 +57,3 @@ Contato
 <h4 align="center"> 
 <img src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/BikCraft/wireframe/screenshots/contato.png" >
 </h4>
-
