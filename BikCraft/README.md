@@ -27,7 +27,7 @@ Screenshots
 Home 
 </h4>
 <h4 align="center"> 
-<img src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/BikCraft/wireframe/screenshots/Home.png"  >
+<img src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/BikCraft/wireframe/screenshots/home.png"  >
 </h4>
 
 <h4 align="center"> 
@@ -41,7 +41,7 @@ Sobre
 Produtos 
 </h4>
 <h4 align="center"> 
-<img src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/BikCraft/wireframe/screenshots/Produto.png" >
+<img src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/BikCraft/wireframe/screenshots/produto.png" >
 </h4>
 
 <h4 align="center"> 
