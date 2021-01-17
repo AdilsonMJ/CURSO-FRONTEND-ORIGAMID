@@ -1,5 +1,5 @@
 <h6 align="center"> 
-:construction: Em construção 	:construction:
+ FINALIZADO
 </h6 >
 <h1 align="center"> BikCraft
 </h1>
