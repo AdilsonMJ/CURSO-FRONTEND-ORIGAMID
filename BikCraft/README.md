@@ -1,5 +1,5 @@
 <h6 align="center"> 
-:checkered_flag: Finalizado 	:checkered_flag:
+:construction: Em construção 	:construction:
 </h6 >
 <h1 align="center"> BikCraft
 </h1>
