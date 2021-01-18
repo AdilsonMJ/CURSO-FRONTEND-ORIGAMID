@@ -10,7 +10,7 @@ Projeto Brafé é realizado de 4 formas diferentes, com intuito de passar
 visualizar e aprender todas as formas de criar um site.
 
 -  CSS Puro :ballot_box_with_check:
--  CSS com Grid
+-  CSS com Grid :ballot_box_with_check:
 -  CSS FlexBox
 -  Bootstrap
 
