@@ -44,8 +44,8 @@ GRADE DO CURSO E HORAS
 <h2 align="center">Progresso e %...</h2>
 
 -  [x] Web Design Completo (80/80) 
--  [ ] CSS (0/4)
-   -  [ ] CSS Avançado - Posicionamento (28/52)
+-  [ ] CSS (1/4)
+   -  [x] CSS Avançado - Posicionamento (52/52)
    -  [ ] CSS Grid Layout (0/34)
    -  [ ] CSS Flexbox (0/25)
    -  [ ] CSS com SASS (0/31)
