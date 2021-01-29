@@ -44,10 +44,10 @@ GRADE DO CURSO E HORAS
 <h2 align="center">Progresso e %...</h2>
 
 -  [x] Web Design Completo (80/80) 
--  [ ] CSS (1/4)
+-  [ ] CSS (2/4)
    -  [x] CSS Avançado - Posicionamento (52/52)
+   -  [x] CSS Flexbox (25/25)
    -  [ ] CSS Grid Layout (0/34)
-   -  [ ] CSS Flexbox (0/25)
    -  [ ] CSS com SASS (0/31)
 -  [ ] JavaScript Completo ES6 (0/156)
 -  [ ] Vue.ja 2 Completo (0/112)
@@ -68,7 +68,10 @@ GRADE DO CURSO E HORAS
    -  [ ] Adobe XD (0/28)
 
 <h2 align="center">Projetos finalizados</h2>
-<a href="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/tree/main/BikCraft">Web Design Completo - BIKCRAFT </a>
-<a href="#"> CSS Avançado </a>
+<h3>*<h/3>
+<a href="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/tree/main/BikCraft"> <strong>Web Design Completo - BIKCRAFT </strong> </a>
+<h3>*<h/3>
+<a href="#"> <strong> CSS Avançado</strong> </a>
+<h3>*<h/3>
 <a href="#"> FlexBox </a>
 
