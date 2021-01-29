@@ -69,4 +69,6 @@ GRADE DO CURSO E HORAS
 
 <h2 align="center">Projetos finalizados</h2>
 <a href="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/tree/main/BikCraft">Web Design Completo - BIKCRAFT </a>
-<img align="center" src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/screenshots/BikCraftGift.gif">
+<a href="#"> CSS Avançado </a>
+<a href="#"> FlexBox </a>
+
