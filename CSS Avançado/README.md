@@ -2,7 +2,7 @@
  :racing_car::checkered_flag:    ...FINALIZADO...     :racing_car::checkered_flag:
 </h6>
 
-<h1 align="center">Css Avançado/h1>
+<h1 align="center">Css Avançado</h1>
 
 
 <h2>Sobre o Curso...</h2>
