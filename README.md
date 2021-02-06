@@ -44,10 +44,10 @@ GRADE DO CURSO E HORAS
 <h2 align="center">Progresso e %...</h2>
 
 -  [x] Web Design Completo (80/80) 
--  [ ] CSS (2/4)
+-  [ ] CSS (3/4)
    -  [x] CSS Avançado - Posicionamento (52/52)
    -  [x] CSS Flexbox (25/25)
-   -  [ ] CSS Grid Layout (0/34)
+   -  [x] CSS Grid Layout (34/34)
    -  [ ] CSS com SASS (0/31)
 -  [ ] JavaScript Completo ES6 (0/156)
 -  [ ] Vue.ja 2 Completo (0/112)
@@ -69,9 +69,11 @@ GRADE DO CURSO E HORAS
 
 <h2 align="center">Projetos finalizados</h2>
 <h3>*<h/3>
-<a href="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/tree/main/BikCraft"> <strong>Web Design Completo - BIKCRAFT </strong> </a>
+<a href="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/tree/main/BikCraft"> <strong>Web Design Completo  - BIKCRAFT  </strong> </a>
 <h3>*<h/3>
-<a href="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/tree/main/CSS%20Avan%C3%A7ado"> <strong> CSS Avançado</strong> </a>
+<a href="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/tree/main/CSS%20Avan%C3%A7ado"> <strong> CSS Avançado </strong> - Brafé </a>
 <h3>*<h/3>
-<a href="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/tree/main/FlexBox"> FlexBox </a>
+<a href="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/tree/main/FlexBox"> <strong> FlexBox </strong> - FlexBlog </a>
+<h3>*<h/3>
+<a href="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/tree/main/Grid"> <strong> Grid </strong> - Willbeast  </a>
 
