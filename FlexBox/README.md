@@ -11,6 +11,4 @@ Nesse Curso tive a oportunidade de me aprofundar ainda mais em flexbox e montar 
 <h2 align="center">ScreenShot</h2>
 
 
-<img align="center" src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/FlexBox/screenshots/flexbox-1.png"  >
-<img align="center" src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/FlexBox/screenshots/flexbox-2.png"  >
-<img align="center" src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/FlexBox/screenshots/flexbox-3.png"  >
+<img align="center" src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/FlexBox/screenshots/FlexBlog.gif"  >
