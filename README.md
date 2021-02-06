@@ -15,33 +15,7 @@ GRADE DO CURSO E HORAS
 
 <img align="center" src="https://github.com/AdilsonMJ/CURSO-FRONTEND-ORIGAMID/blob/main/screenshots/Grade%20Do%20Curso.png"  >
 
-<h2 align="center">Ordem que estou seguindo do curso :clipboard:</h2>
-
--  Web Design Completo
--  CSS
-   -  CSS Avançado - Posicionamento
-   -  CSS Grid Layout
-   -  CSS Flexbox
-   -  CSS com SASS
--  JavaScript Completo ES6
--  Vue.ja 2 Completo
--  Bootstrap 4
--  Automação Front End com NPM
--  JavaScript e JQuery
--  React Completo
--  Reduz com React
--  WordPress
-   -  WordPress Como CMS
-   -  WordPress REST API Dogs
-   -  WordPress REST API
--  WooCommerce Como CMS
--  Design
-   -  UI Design Avançado
-   -  UX Design Heuristicas
-   -  Tipografia Avançada
-   -  Adobe XD
-
-<h2 align="center">Progresso e %...</h2>
+<h2 align="center">Ordem e Progresso</h2>
 
 -  [x] Web Design Completo (80/80) 
 -  [ ] CSS (3/4)
