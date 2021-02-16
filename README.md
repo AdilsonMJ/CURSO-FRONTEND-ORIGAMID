@@ -23,7 +23,7 @@ GRADE DO CURSO E HORAS
    -  [x] CSS Flexbox (25/25)
    -  [x] CSS Grid Layout (34/34)
    -  [ ] CSS com SASS (0/31)
--  [ ] JavaScript Completo ES6  (25/156)
+-  [ ] JavaScript Completo ES6  (31/156)
 -  [ ] Vue.ja 2 Completo (0/112)
 -  [ ] #Bootstrap 4 (0/23)
 -  [ ] Automação Front End com NPM (0/28)
