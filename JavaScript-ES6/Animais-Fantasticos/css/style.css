@@ -109,12 +109,18 @@ body{
      background: #faf6ed;
 }
 
+.animais-lista:hover{
+     cursor: pointer;
+}
+
 .animais-descricao{
      grid-column: 3;
+     overflow: hidden;
 }
 
 .animais-descricao section{
      margin-bottom: 3rem;
+     
 }
 
 .faq-lista{
@@ -205,5 +211,26 @@ body{
 
      .copy{
           margin: 0;
+     }
+}
+
+
+.js .js-tabcontent section{
+     display: none;
+}
+
+.js .js-tabcontent section.ativo{
+     display: block !important;
+     animation: show 1s forwards;
+}
+
+@keyframes show{
+     from{
+          opacity: 0;
+          transform: translate3d(0px, -1000px, 0);
+     }
+     to{
+          opacity: .5s;
+          transform: translate3d(0, 0, 0);
      }
 }

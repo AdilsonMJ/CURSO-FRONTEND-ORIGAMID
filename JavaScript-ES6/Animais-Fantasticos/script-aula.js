@@ -348,4 +348,41 @@
 
 //  faq.innerHTML = animais.innerHTML
 
-// NAVEGACAO POR TAB
+
+// Navegacao por TAB
+
+const tabMenu = document.querySelectorAll('.js-tabmenu li');
+const tabContent = document.querySelectorAll('.js-tabcontent section');
+
+if(tabMenu.length && tabContent.length){
+     tabContent[0].classList.add('ativo')
+     //Adiciona class ativo na lista de descricao de cada animal
+     function activeTAb(index){
+          tabContent.forEach((section) => {
+               section.classList.remove('ativo');
+          })
+          tabContent[index].classList.add('ativo');
+     }
+
+     // adiciona a class ativo na lista de descricao baseado na imagem q é clicada
+     tabMenu.forEach((itemMenu, index) =>{
+          itemMenu.addEventListener('click', () => {
+               activeTAb(index);
+          })
+     })
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Accordion list :   Uma pergunta com resposta escondida e quando click mostra a resposta
+
