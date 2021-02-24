@@ -1,4 +1,4 @@
-// // // var dados = {
+// // // var date = {
 // // //      nome: 'adilson',
 // // //      sobrenome: 'Jager',
 // // //      idade: 28,
@@ -6,11 +6,11 @@
 
 // // // }
 
-// // // dados.nomeCompleto = function(){
+// // // date.nomeCompleto = function(){
 // // //       return `${this.nome} ${this.sobrenome}`
 // // // }
 
-// // // console.log(dados.nomeCompleto())
+// // // console.log(date.nomeCompleto())
 
 // // // var carro = {
 // // //      preco: 1000,

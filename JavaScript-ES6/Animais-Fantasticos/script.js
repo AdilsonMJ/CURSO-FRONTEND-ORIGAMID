@@ -1,20 +1,20 @@
-// Navegacao por TAB
+// Tab Navigation
 function initTabNav() {
 
      const tabMenu = document.querySelectorAll('.js-tabmenu li');
      const tabContent = document.querySelectorAll('.js-tabcontent section');
      
      if(tabMenu.length && tabContent.length){
-          tabContent[0].classList.add('ativo')
-          //Adiciona class ativo na lista de descricao de cada animal
+          tabContent[0].classList.add('active')
+          //insert the active class at description list of each animal
           function activeTAb(index){
                tabContent.forEach((section) => {
-                    section.classList.remove('ativo');
+                    section.classList.remove('active');
                })
-               tabContent[index].classList.add('ativo');
+               tabContent[index].classList.add('active');
           }
      
-          // adiciona a class ativo na lista de descricao baseado na imagem q é clicada
+          // insert the active class at description list based at image that has clicked
           tabMenu.forEach((itemMenu, index) =>{
                itemMenu.addEventListener('click', () => {
                     activeTAb(index);
@@ -26,7 +26,7 @@ function initTabNav() {
 // Accordion list
 function initAccordion(){
      const accordionList = document.querySelectorAll('.js-accordion dt');
-     const activeClass = 'ativo'
+     const activeClass = 'active'
      if(accordionList.length ){
           accordionList[0].classList.add(activeClass);
           accordionList[0].nextElementSibling.classList.add(activeClass)
@@ -42,12 +42,12 @@ function initAccordion(){
      }
 }
 
-// ScrollSuave
-function scrollSuave(){
+// ScrollSoft
+function scrollSoft(){
 
-     const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
+     const internalLinks = document.querySelectorAll('.js-menu a[href^="#"]');
      function scrollToSection(e){
-          e.preventDefault(); // Cancelar o evento do click
+          e.preventDefault(); // cancel click event
           const href = e.currentTarget.getAttribute('href');
           const section = document.querySelector(href)
           section.scrollIntoView({
@@ -56,12 +56,12 @@ function scrollSuave(){
           });
 }
 
-linksInternos.forEach((link) => {
+internalLinks.forEach((link) => {
      link.addEventListener('click', scrollToSection)
 })
 }
 
 
-scrollSuave();
+scrollSoft();
 initTabNav();
 initAccordion();

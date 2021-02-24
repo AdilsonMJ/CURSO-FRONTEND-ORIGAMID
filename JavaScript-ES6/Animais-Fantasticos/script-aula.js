@@ -1,413 +1,411 @@
-// // // // // // // // // // // // // // // const animais = document.getElementById('animais')
-// // // // // // // // // // // // // // // const grid = document.getElementsByClassName('grid-section')
-// // // // // // // // // // // // // // // const contato = document.querySelector('.contato') // Retorna o primeiro elemento que combina o seu seletor css
+//  const animals = document.getElementById('Animals')
+//  const grid = document.getElementsByClassName('grid-section')
+//  const contacto = document.querySelector('.contacto') // Return the first element of Selector
 
-// // // // // // // // // // // // // // // const primeiraLi = document.querySelector('li');
-// // // // // // // // // // // // // // // const linksInterno = document.querySelector('[href^="#"]');
-// // // // // // // // // // // // // // // const img = document.querySelectorAll('img');
+//  const firstLi = document.querySelector('li');
+//  const internalLink = document.querySelector('[href^="#"]');
+//  const img = document.querySelectorAll('img');
 
 
-// // // // // // // // // // // // // // // const gridSelectionHTML = document.getElementsByClassName('grid-section');
-// // // // // // // // // // // // // // // const gridSelectionNode = document.querySelectorAll('.grid-section');
+//  const gridSelectionHTML = document.getElementsByClassName('grid-section');
+//  const gridSelectionNode = document.querySelectorAll('.grid-section');
 
-// // // // // // // // // // // // // // // console.log(gridSelectionHTML) // NAO aceita forEach
-// // // // // // // // // // // // // // // console.log(gridSelectionNode) // Aceita forEach
+//  console.log(gridSelectionHTML) // Foreach not Accepted
+//  console.log(gridSelectionNode) // Foreach Accepted
 
-// // // // // // // // // // // // // // // gridSelectionNode.forEach(function(item, index){
-// // // // // // // // // // // // // // //      console.log(index, item)
-// // // // // // // // // // // // // // // })
+//  gridSelectionNode.forEach(function(item, index){
+//       console.log(index, item)
+//  })
 
-// // // // // // // // // // // // // // // const arrayGrid = Array.from(gridSelectionHTML); // Crio um  array com tudo do gridSelectionHTML para poder usar o forEach
-// // // // // // // // // // // // // // // console.log(arrayGrid)
-// // // // // // // // // // // // // // // console.log('+++'.repeat(20))
-// // // // // // // // // // // // // // // console.log('+++'.repeat(20))
-// // // // // // // // // // // // // // // console.log('+++'.repeat(20))
+//  const arrayGrid = Array.from(gridSelectionHTML); // Creat a array to use foreach in gridSelectionHTML.
+//  console.log(arrayGrid)
+//  console.log('+++'.repeat(20))
+//  console.log('+++'.repeat(20))
+//  console.log('+++'.repeat(20))
 
-// // // // // // // // // // // // // // // // Exercicios
-// // // // // // // // // // // // // // // const imgsite = document.querySelectorAll('img');
-// // // // // // // // // // // // // // // console.log(imgsite);
-// // // // // // // // // // // // // // // console.log('+++'.repeat(20))
+//  // Exercises
+//  const imgsite = document.querySelectorAll('img');
+//  console.log(imgsite);
+//  console.log('+++'.repeat(20))
 
-// // // // // // // // // // // // // // // const imagemAnimais = document.querySelectorAll('img[src^="IMG/imagem"]')
-// // // // // // // // // // // // // // // console.log(imagemAnimais)
-// // // // // // // // // // // // // // // console.log('+++'.repeat(20))
+//  const animalsImg = document.querySelectorAll('img[src^="IMG/imagem"]')
+//  console.log(animalsImg)
+//  console.log('+++'.repeat(20))
 
-// // // // // // // // // // // // // // // const link = document.querySelectorAll('[href^="#"]');
-// // // // // // // // // // // // // // // console.log(link)
-// // // // // // // // // // // // // // // console.log('+++'.repeat(20))
+//  const link = document.querySelectorAll('[href^="#"]');
+//  console.log(link)
+//  console.log('+++'.repeat(20))
 
-// // // // // // // // // // // // // // // const h2Animais =  document.querySelector('.animais-descricao h2');
-// // // // // // // // // // // // // // // console.log(h2Animais)
-// // // // // // // // // // // // // // // console.log('---'.repeat(20))
-// // // // // // // // // // // // // // // const animais2 =  document.querySelector('.animais-descricao');
-// // // // // // // // // // // // // // // const h2Animais2 =  animais2.querySelector('h2')
-// // // // // // // // // // // // // // // console.log(animais2)
-// // // // // // // // // // // // // // // console.log(h2Animais2)
+//  const h2Animals =  document.querySelector('.Animals-description h2');
+//  console.log(h2Animals)
+//  console.log('---'.repeat(20))
+//  const Animals2 =  document.querySelector('.Animals-description');
+//  const h2Animals2 =  Animals2.querySelector('h2')
+//  console.log(Animals2)
+//  console.log(h2Animals2)
 
-// // // // // // // // // // // // // // // //selecione o ultimo p do site 
-// // // // // // // // // // // // // // // const paragrafos = document.querySelectorAll('p');
-// // // // // // // // // // // // // // // console.log(paragrafos[paragrafos.length -1])
+//  //selecione o ultimo p do site 
+//  const paragraphs = document.querySelectorAll('p');
+//  console.log(paragraphs[paragraphs.length -1])
 
 
+//  //NodeList
+//  const imgs = document.querySelectorAll('img');
 
+//  imgs.forEach(function(item, index, array){
+//       console.log(item, index, array)
 
-// // // // // // // // // // // // // // // //NodeList
-// // // // // // // // // // // // // // // const imgs = document.querySelectorAll('img');
+//  })
 
-// // // // // // // // // // // // // // // imgs.forEach(function(item, index, array){
-// // // // // // // // // // // // // // //      console.log(item, index, array)
-// // // // // // // // // // // // // // // })
 
+//  //HTML COLLECTION
+//  const titles = document.getElementsByClassName('title');
+//  const titleArray = Array.from(titles);
 
-// // // // // // // // // // // // // // // //HTML COLLECTION
-// // // // // // // // // // // // // // // const titulos = document.getElementsByClassName('titulo');
-// // // // // // // // // // // // // // // const tituloArray = Array.from(titulos);
+//  titleArray.forEach(function(item, index){
+//       console.log(item, index)
+//  })
 
-// // // // // // // // // // // // // // // tituloArray.forEach(function(item, index){
-// // // // // // // // // // // // // // //      console.log(item, index)
-// // // // // // // // // // // // // // // })
 
+//  //Arrow Function 
+//  console.log('Arrow Function '.repeat(3))
 
-// // // // // // // // // // // // // // // //Arrow Function 
-// // // // // // // // // // // // // // // console.log('Arrow Function '.repeat(3))
+//  const imgs2 = document.querySelectorAll('img');
+//  imgs2.forEach((item) => { // just work with array
+//       console.log(item)
+//  });
 
-// // // // // // // // // // // // // // // const imgs2 = document.querySelectorAll('img');
-// // // // // // // // // // // // // // // imgs2.forEach((item) => { // com arrow function
-// // // // // // // // // // // // // // //      console.log(item)
-// // // // // // // // // // // // // // // });
+//  imgs2.forEach((item) =>  console.log(item)); // User Arrow function when just have one code line
 
-// // // // // // // // // // // // // // // imgs2.forEach((item) =>  console.log(item)); // com arrow function quando se tem apenas 1 linha de codigo
+//  // imgs2.forEach(function(item){ // without arrow function 
+//  //      console.log(item)
+//  // })
 
-// // // // // // // // // // // // // // // // imgs2.forEach(function(item){ // sem arrow function 
-// // // // // // // // // // // // // // // //      console.log(item)
-// // // // // // // // // // // // // // // // })
 
+//  // Show on the website each paragraphs 
+//  const paragraphs = document.querySelectorAll('p');
+//  paragraphs.forEach((item) => console.log(item));
 
-// // // // // // // // // // // // // // // // Mostre no console cada paragrafo do site 
-// // // // // // // // // // // // // // // const paragrafo = document.querySelectorAll('p');
-// // // // // // // // // // // // // // // paragrafo.forEach((item) => console.log(item));
+//  //Show the text in each paragraphs
+//  paragraphs.forEach((item) => console.log(item.innerText))
 
-// // // // // // // // // // // // // // // //mostre o texto dos paragrafos no console
-// // // // // // // // // // // // // // // paragrafo.forEach((item) => console.log(item.innerText))
+//  //How to fix the errors below:
+//  // const imgs3 = document.querySelectorAll('img');
+//  // imgs3.forEach(item, index => {
+//  //      console.log(item, index);
+//  // })
+//  const imgs3 = document.querySelectorAll('img');
+//  imgs3.forEach((item, index) => {
+//       console.log(item, index)
+//  });
 
-// // // // // // // // // // // // // // // //Como corrirgir os erros abaixo:
-// // // // // // // // // // // // // // // // const imgs3 = document.querySelectorAll('img');
-// // // // // // // // // // // // // // // // imgs3.forEach(item, index => {
-// // // // // // // // // // // // // // // //      console.log(item, index);
-// // // // // // // // // // // // // // // // })
-// // // // // // // // // // // // // // // const imgs3 = document.querySelectorAll('img');
-// // // // // // // // // // // // // // // imgs3.forEach((item, index) => {
-// // // // // // // // // // // // // // //      console.log(item, index)
-// // // // // // // // // // // // // // // });
+//  // let i = 0;
+//  // imgs3.forEach(=>{
+//  //      console.log(i++);
+//  // })
 
-// // // // // // // // // // // // // // // // let i = 0;
-// // // // // // // // // // // // // // // // imgs3.forEach(=>{
-// // // // // // // // // // // // // // // //      console.log(i++);
-// // // // // // // // // // // // // // // // })
+//  let i = 0;
+//  imgs3.forEach(()=>{
+//       console.log(i++);
+//  })
 
-// // // // // // // // // // // // // // // let i = 0;
-// // // // // // // // // // // // // // // imgs3.forEach(()=>{
-// // // // // // // // // // // // // // //      console.log(i++);
-// // // // // // // // // // // // // // // })
+//  let e = 0;
+//  imgs3.forEach(() => e++);
 
-// // // // // // // // // // // // // // // let e = 0;
-// // // // // // // // // // // // // // // imgs3.forEach(() => e++);
+//  const menu = document.querySelector('.menu')
 
-// // // // // // // // // // // // // // const menu = document.querySelector('.menu')
+//  menu.classList.add('active', 'test')
+//  menu.classList.add('active')
+//  menu.classList.remove('test')
 
-// // // // // // // // // // // // // // menu.classList.add('ativo', 'teste')
-// // // // // // // // // // // // // // menu.classList.add('ativo')
-// // // // // // // // // // // // // // menu.classList.remove('teste')
+//  menu.classList.contains('active') ? console.log('true') : console.log('false')
 
-// // // // // // // // // // // // // // menu.classList.contains('ativo') ? console.log('true') : console.log('false')
+//  console.log(menu.classList);
 
-// // // // // // // // // // // // // // console.log(menu.classList);
 
+//  const Animals = document.querySelector('.Animals');
 
-// // // // // // // // // // // // // // const animais = document.querySelector('.animais');
+//  console.log(Animals.attributes)
 
-// // // // // // // // // // // // // // console.log(animais.attributes)
 
+// GetAttribute e setAttribute
 
-// // // // // // // // // // // // // // // GetAttribute e setAttribute
+//  const img = document.querySelector('img');
+//  console.log(img.getAttribute('alt'));
 
-// // // // // // // // // // // // // // const img = document.querySelector('img');
-// // // // // // // // // // // // // // console.log(img.getAttribute('alt'));
+//  img.setAttribute('alt', 'This Animal is a fox')
+//  console.log(img);
 
-// // // // // // // // // // // // // // img.setAttribute('alt', 'É uma raposa')
-// // // // // // // // // // // // // // console.log(img);
+//  const ownAlt = img.hasAttribute('alt') // Return boolean 
+//  console.log(ownAlt)
 
-// // // // // // // // // // // // // // const possuitAlt = img.hasAttribute('alt') // Retorna um boolean 
-// // // // // // // // // // // // // // console.log(possuitAlt)
 
 
+ //Adicione a class active a todos os itens do menu
 
-// // // // // // // // // // // // // // //Adicione a class ativo a todos os itens do menu
+//  const menuItens = document.querySelectorAll('.menu a');
 
-// // // // // // // // // // // // // const itensMenu = document.querySelectorAll('.menu a');
+//  menuItens.forEach((item ) => {
+//       item.classList.add('active')
+//  });
 
-// // // // // // // // // // // // // itensMenu.forEach((item ) => {
-// // // // // // // // // // // // //      item.classList.add('ativo')
-// // // // // // // // // // // // // });
+//  console.log(menuItens)
 
-// // // // // // // // // // // // // console.log(itensMenu)
+//  // Remove all active class from menu itens and just leave the first element
+//  menuItens.forEach((item, index ) => {
+//       item.classList.remove('active')
+//  });
 
-// // // // // // // // // // // // // // Remove a classe ativo de todos os itens do menu e mantenha apenas o primeiro
-// // // // // // // // // // // // // itensMenu.forEach((item, index ) => {
-// // // // // // // // // // // // //      item.classList.remove('ativo')
-// // // // // // // // // // // // // });
+//  menuItens[0].classList.add('active')
 
-// // // // // // // // // // // // // itensMenu[0].classList.add('ativo')
+//  // Check if the images has alt attribute
+ 
+//  const imgs = document.querySelectorAll('img')
 
-// // // // // // // // // // // // // //Verifique se as imagens possuem o atributo possuitAlt
+//  imgs.forEach((item) =>{
+//       const hasAttribute = item.hasAttribute('alt');
+//     console.log(item, 'hasAttribute')
+//  })
 
-// // // // // // // // // // // // // const imgs = document.querySelectorAll('img')
+// modify the href link external 
+// const link = document.querySelector('a[href^="http"]');
+// console.log(link)
+// link.setAttribute('href', 'https://www.facebok.com');
 
-// // // // // // // // // // // // // imgs.forEach((item) =>{
-// // // // // // // // // // // // //      const possuiAtributo = item.hasAttribute('alt');
-// // // // // // // // // // // // //      console.log(item, possuiAtributo)
-// // // // // // // // // // // // // })
 
-// // // // // // // // // // // // // //modifique o href interno do link externo no itensMenu
-// // // // // // // // // // // // // const link = document.querySelector('a[href^="http"]');
-// // // // // // // // // // // // // console.log(link)
-// // // // // // // // // // // // // link.setAttribute('href', 'https://www.facebok.com.br');
+// //Height e width
 
+      //Get width and height
+//  const listAnimals = document.querySelector('.Animals-list');
+//  const height = listAnimals.scrollHeight;
+//  console.log(height);
 
-// // // // // // // // // // // //Height e width
+//       //Top distance
+//  const AnimalsTop = listAnimals.offsetTop;
+//  console.log(AnimalsTop);
 
-// // // // // // // // // // //      //pegar largura e altura 
-// // // // // // // // // // // const listaAnimais = document.querySelector('.animais-lista');
-// // // // // // // // // // // const height = listaAnimais.scrollHeight;
-// // // // // // // // // // // console.log(height);
+//       // Distancia referente a distancia da esquerda
+//  const firstH2 = document.querySelector('h2');
+//  const h2left = firstH2.offsetLeft()
+//  console.log(h2left)
 
-// // // // // // // // // // //      //Distancia do top
-// // // // // // // // // // // const animaisTop = listaAnimais.offsetTop;
-// // // // // // // // // // // console.log(animaisTop);
+//       //getBounding
+//  const rect = firstH2.getBoundingClientRect();
+//  console.log(rect.top)
+//  if(rect.top < 0) console.log('Passed the element ')
 
-// // // // // // // // // // //      // Distancia referente a distancia da esquerda
-// // // // // // // // // // // const primeiroH2 = document.querySelector('h2');
-// // // // // // // // // // // const h2left = primeiroH2.offsetLeft
-// // // // // // // // // // // console.log(h2left)
 
-// // // // // // // // // // //      //getBounding
-// // // // // // // // // // // const rect = primeiroH2.getBoundingClientRect();
-// // // // // // // // // // // console.log(rect.top)
-// // // // // // // // // // // if(rect.top < 0) console.log('Passou do elemento')
+ // Window
 
+//  console.log(
+//       window.innerWidth,
+//       window.innerHeight,
+//       window.outerHeight, // Not used Usually because get the all screen.
+//       window.outerWidth, // Not used Usually
 
-// // // // // // // // // // // // Window
+//       window.pageYOffset, //Distance of all horizontal scroll
+//       window.pageXOffset, //Distance of all vertical scroll
+//  )
 
-// // // // // // // // // // // console.log(
-// // // // // // // // // // //      window.innerWidth,
-// // // // // // // // // // //      window.innerHeight,
-// // // // // // // // // // //      window.outerHeight, // Geralmente não se usa pois pega toda a tela ate painel superior 
-// // // // // // // // // // //      window.outerWidth, // Geralmente não se usa
+ // exercises
 
-// // // // // // // // // // //      window.pageYOffset, //Distancia total do scroll horizontal
-// // // // // // // // // // //      window.pageXOffset, //Distancia total do scroll vertical
+ //Check the distance of first image 
+ //Check the distance of the first image in relation to the top of the page
+//  const img6 = document.querySelector('img');
+//  const img6Top = img6.getBoundingClientRect();
+//  console.log(img6Top.top);
 
-// // // // // // // // // // // Exercicios
+//  // Return the amount of the width of all images
+//  window.onload = function(){
+//       const imgWidth = document.querySelectorAll('img');
+//            let totalHeight = 0
+//            imgWidth.forEach((item) => {
+//                totalHeight += item.offsetWidth
+//       });
+//       console.log(totalHeight)
+//  }
 
-// // // // // // // // // // //Verifique a distancia da primeira imagem em relacao ao topo da página
-// // // // // // // // // // const img6 = document.querySelector('img');
-// // // // // // // // // // const img6Top = img6.getBoundingClientRect();
-// // // // // // // // // // console.log(img6Top.top);
+ //Check that the links on the page have the minimum recommended for screens used with finger. (40px / 48px according to google)
 
-// // // // // // // // // // // Retorno a soma da largura de todas as imagens
 
+//  const link = document.querySelectorAll('a')
+//  link.forEach((item ) => {
+//       const linkwidth = item.offsetWidth
+//       const linkheight = item.offsetHeight
 
-// // // // // // // // // // window.onload = function(){
-// // // // // // // // // //      const imgLargura = document.querySelectorAll('img');
-// // // // // // // // // //           let larguraTotal = 0
-// // // // // // // // // //           imgLargura.forEach((item) => {
-// // // // // // // // // //                larguraTotal += item.offsetWidth
-// // // // // // // // // //      });
-// // // // // // // // // //      console.log(larguraTotal)
-// // // // // // // // // // }
+//       if(linkwidth < 48 || linkheight < 48) console.log (
+//            `${item} has ${linkheight} Height and ${linkwidth} Width`
+//       )
+//       else console.log('alright')
 
-// // // // // // // // // // //Verifique se os links da página possuem o mínimo recomendado para telas utilizadas com dedo.(40px/48px de acordo com o google)
+//  })
 
 
-// // // // // // // // // // const link = document.querySelectorAll('a')
-// // // // // // // // // // link.forEach((item ) => {
-// // // // // // // // // //      const linkwidth = item.offsetWidth
-// // // // // // // // // //      const linkheight = item.offsetHeight
+ // If the browser is less than 720px, add the meni-mobile class to the menu
 
-// // // // // // // // // //      if(linkwidth < 48 || linkheight < 48) console.log (
-// // // // // // // // // //           `${item} possui ${linkheight} Height e ${linkwidth} Width`
-// // // // // // // // // //      )
-// // // // // // // // // //      else console.log('Tudo certo')
+// const browser = window.innerWidth;
 
-// // // // // // // // // // })
+// if(browser < 720) {
+//      const menu = document.querySelector('.menu')
+//      menu.classList.add('mobile-menu')
+// }
 
+// console.log(browser)
 
-// // // // // // // // // // // Se o browser for menor que 720px, adicione a classe meni-mobile ao menu 
+// ///Element addEventListener
 
-// // // // // // // // // const browser = window.innerWidth;
+// // const img7 = document.querySelector('img')
+// // function clicked(){
+// //      console.log('clicked')
+// // }
+// // img7.addEventListener( 'click', clicked)
 
-// // // // // // // // // if(browser < 720) {
-// // // // // // // // //      const menu = document.querySelector('.menu')
-// // // // // // // // //      menu.classList.add('menu-mobile')
-// // // // // // // // // }
+//  const Animalslist = document.querySelector('.Animals-list');
 
-// // // // // // // // // console.log(browser)
+//  function callBacklist(e){
+//       console.log(e.currentTarget) // Returns all list 
+//       console.log(e.this) // Returns all list
+//       console.log(e.target) // return the object that was clicked
+//       console.log(e.type) // event type
+//       console.log(e.path)
+//  }
+//  Animalslist.addEventListener('click', callBacklist);
 
-// // // // // // // // //Elemento addEventListener
 
-// // // // // // // // // const img7 = document.querySelector('img')
-// // // // // // // // // function clicou(){
-// // // // // // // // //      console.log('clicou')
-// // // // // // // // // }
-// // // // // // // // // img7.addEventListener( 'click', clicou)
+//       //preventDefault
+//  const externalLink = document.querySelector('a[href^="http"]')
+//  function handleexternalLink(e){
+//       e.preventDefault(); // Prevent that external link work
+//       console.log(e)
+//  }
+//  externalLink.addEventListener('click', handleexternalLink)
 
-// // // // // // // // const animaisLista = document.querySelector('.animais-lista');
+//  function handleClitT(e){
+//       if(e.key === 't' || e.key === 'T') console.log('clicked') // Press the T key in keyboard
+//  }
 
-// // // // // // // // function callBackLista(e){
-// // // // // // // //      console.log(e.currentTarget) // Retorna toda a lista
-// // // // // // // //      console.log(e.this) // Retorna toda a lista
-// // // // // // // //      console.log(e.target) // Retorna o obj que foi clicado
-// // // // // // // //      console.log(e.type) // Tipo do evento, neste caso 'click
-// // // // // // // //      console.log(e.path)
-// // // // // // // // }
-// // // // // // // // animaisLista.addEventListener('click', callBackLista);
+//  window.addEventListener('keydown', handleClitT);
 
+//       // Traversing and manipulation
 
-// // // // // // // //      //preventDefault
-// // // // // // // // const linkExterno = document.querySelector('a[href^="http"]')
-// // // // // // // // function handleLinkExterno(e){
-// // // // // // // //      e.preventDefault(); // Impede que o link externo funcione
-// // // // // // // //      console.log(e)
-// // // // // // // // }
-// // // // // // // // linkExterno.addEventListener('click', handleLinkExterno)
+//  const t = document.querySelector('h1')
+//  console.log(t.innerHTML)
+//  t.innerText = "Hello! I`m here for our joy "
 
-// // // // // // // function handleClitT(e){
-// // // // // // //      if(e.key === 't' || e.key === 'T') console.log('clicou')
-// // // // // // // }
+// // HANDLE(manipulation) ELEMENTS / MOVE ELEMENTS
 
-// // // // // // // window.addEventListener('keydown', handleClitT);
+//  const list = document.querySelector('.Animals-list')
+//  const contacto = document.querySelector('.contacto')
+//  const title = contacto.querySelector('.title')
+//  const Animals = document.querySelector('.Animals')
+//  const map = document.querySelector('.map')
 
-// // // // // //      // Traversing e manipulacao
+//  console.log(list.children[--list.children.length])
+//  console.log(list.querySelector('li:last-child'))
 
-// // // // // // // const t = document.querySelector('h1')
-// // // // // // // console.log(t.innerHTML)
-// // // // // // // t.innerText = 'Hello Estou aqui para nossa alegria '
 
-// // // // // // //MANIPULAR ELEMENTOS  / MOVER ELEMENTOS
+//  list.appendChild(title) // It will put title on the last item in the list. add that item to the list in the last position.
+//  contacto.insertBefore(Animals, title)     //insert a list before... 
+//  contacto.removeChild(title) //remove title of contacto
+//  contacto.replaceChild(map, title)     //replace title per map
 
-// // // // // // const lista = document.querySelector('.animais-lista')
-// // // // // // const contato = document.querySelector('.contato')
-// // // // // // const titulo = contato.querySelector('.titulo')
-// // // // // // const animais = document.querySelector('.animais')
-// // // // // // const mapa = document.querySelector('.mapa')
+//  const novoh1 = document.createElement('h1')
+//  novoh1.innerText = 'New title'
+//  novoh1.classList.add('title')
+//  map.appendChild(novoh1) // It will insert a new h1 after the map
 
-// // // // // // // console.log(lista.children[--lista.children.length])
-// // // // // // // console.log(lista.querySelector('li:last-child'))
+// clonar element
 
+//  const h1 = document.querySelector('h1')
+//  const faq = document.querySelector('.faq')
 
-// // // // // // // lista.appendChild(titulo) // Vai colocar titulo no ultimo item da lista, adiciona esse item a lista na ultima posicao.
+//  const cloneh1 = h1.cloneNode(true);
 
-// // // // // // // contato.insertBefore(animais, titulo)     //insere a lista antes... 
-// // // // // // // contato.removeChild(titulo) //remove titulo de contato
-// // // // // // // contato.replaceChild(mapa, titulo)     //substitui titulo por mapa
+//  faq.appendChild(cloneh1)
 
-// // // // // // const novoh1 = document.createElement('h1')
-// // // // // // novoh1.innerText = 'Novo Titulo'
-// // // // // // novoh1.classList.add('titulo')
-// // // // // // mapa.appendChild(novoh1) // Vai adicionar novo h1 apos o mapa
 
-// // // // // // //clonar elemento
+// exercises
 
-// // // // // const h1 = document.querySelector('h1')
-// // // // // const faq = document.querySelector('.faq')
+// duplique the menu and insert the clone in element copy
 
-// // // // // const cloneh1 = h1.cloneNode(true);
+// const menu = document.querySelector('.menu')
+// const copy = document.querySelector('.copy')
 
-// // // // // faq.appendChild(cloneh1)
+// const cloneMenu = menu.cloneNode(true)
+// copy.appendChild(cloneMenu)
 
+// Select the first DT of dl from faq
+// const faq = document.querySelector('.faq')
+// const firstDT = faq.querySelector('dt')
 
-// // // // // Exercicios
+// Select the DD relative to the first DT
+// const nextDD = firstDT.nextElementSibling;
 
-// // // // // dupliqye o menu e adicione ele em copy
+// replace the html content of .faq with of .Animals
+// const Animals = document.querySelector('.Animals')
 
-// // // // const menu = document.querySelector('.menu')
-// // // // const copy = document.querySelector('.copy')
+//  faq.innerHTML = Animals.innerHTML
 
-// // // // const cloneMenu = menu.cloneNode(true)
-// // // // copy.appendChild(cloneMenu)
 
-// // // // //selecione o primeiro DT do dl de faq
-// // // // const faq = document.querySelector('.faq')
-// // // // const primeiroDT = faq.querySelector('dt')
+// // Tab Navigation
 
-// // // // // selecione o DD referente ao primeiro DT
-// // // // const proximoDD = primeiroDT.nextElementSibling;
+//  function initTabNav() {
 
-// // // // // substitua o conteúdo html de .faq pelo de .animais
-// // // // const animais = document.querySelector('.animais')
-
-// // // //  faq.innerHTML = animais.innerHTML
-
-
-// // // // Navegacao por TAB
-
-// // // function initTabNav() {
-
-// // //      const tabMenu = document.querySelectorAll('.js-tabmenu li');
-// // //      const tabContent = document.querySelectorAll('.js-tabcontent section');
+//       const tabMenu = document.querySelectorAll('.js-tabmenu li');
+//       const tabContent = document.querySelectorAll('.js-tabcontent section');
      
-// // //      if(tabMenu.length && tabContent.length){
-// // //           tabContent[0].classList.add('ativo')
-// // //           //Adiciona class ativo na lista de descricao de cada animal
-// // //           function activeTAb(index){
-// // //                tabContent.forEach((section) => {
-// // //                     section.classList.remove('ativo');
-// // //                })
-// // //                tabContent[index].classList.add('ativo');
-// // //           }
+//       if(tabMenu.length && tabContent.length){
+//            tabContent[0].classList.add('active')
+//            //insert active class  at list of description of the each animal
+//            function activeTAb(index){
+//                 tabContent.forEach((section) => {
+//                      section.classList.remove('active');
+//                 })
+//                 tabContent[index].classList.add('active');
+//            }
      
-// // //           // adiciona a class ativo na lista de descricao baseado na imagem q é clicada
-// // //           tabMenu.forEach((itemMenu, index) =>{
-// // //                itemMenu.addEventListener('click', () => {
-// // //                     activeTAb(index);
-// // //                })
-// // //           })
-// // //      }
-// // // }
+//            // insert the active class at list of description based at image that has clicked
+//            tabMenu.forEach((itemMenu, index) =>{
+//                 itemMenu.addEventListener('click', () => {
+//                      activeTAb(index);
+//                 })
+//            })
+//       }
+//  }
 
-// // // initTabNav();
+//  initTabNav();
 
-// // // // Accordion list :   Uma pergunta com resposta escondida e quando click mostra a resposta
-// // // function initAccordion(){
-// // //      const accordionList = document.querySelectorAll('.js-accordion dt');
-// // //      const activeClass = 'activeClass'
-// // //      if(accordionList.length ){
-// // //           accordionList[0].classList.add(activeClass);
-// // //      accordionList[0].nextElementSibling.classList.add(activeClass)
+// // Accordion list :   A question with hidden answer and when click shows the answer
+//  function initAccordion(){
+//       const accordionList = document.querySelectorAll('.js-accordion dt');
+//       const activeClass = 'activeClass'
+//       if(accordionList.length ){
+//            accordionList[0].classList.add(activeClass);
+//       accordionList[0].nextElementSibling.classList.add(activeClass)
 
-// // //      function activeAccordion(){
-// // //           this.classList.toggle(activeClass)
-// // //           this.nextElementSibling.classList.toggle(activeClass)
-// // //      }
+//       function activeAccordion(){
+//            this.classList.toggle(activeClass)
+//            this.nextElementSibling.classList.toggle(activeClass)
+//       }
 
-// // //      accordionList.forEach((item) => {
-// // //           item.addEventListener('click', activeAccordion)
-// // //      })
-// // //      }
-// // // }
+//       accordionList.forEach((item) => {
+//            item.addEventListener('click', activeAccordion)
+//       })
+//       }
+//  }
 
-// // // initAccordion();
+//  initAccordion();
 
 
-// // //Scroll Suave Link interno
+// Scroll Suave Link interno
 
 // // const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
 
 // // function scrollToSection(e){
-// //      e.preventDefault(); // Cancelar o evento do click
+// //      e.preventDefault(); // cancel the click event
 // //      const href = e.currentTarget.getAttribute('href');
 // //      const section = document.querySelector(href)
-// //      /* Forma Alternativa 
+// //      /* Alternative Form
      
 // //      const top = section.offsetTop;
 // //      window.scrollTo({
@@ -423,11 +421,11 @@
 
 // // }
 
-// // linksInternos.forEach((link) => {
+// // internalLinks.forEach((link) => {
 // //      link.addEventListener('click', scrollToSection)
 // // })
 
-// //Animação ao scroll
+// //Scrool Animation
 
 
 // const sections = document.querySelectorAll('.js-scroll');
@@ -438,9 +436,8 @@
 //           const sectionTop = s.getBoundingClientRect().top  - windowsMetade;
 //           const isSectionVisible = (sectionTop - windowsMetade) < 0;
 //           if(isSectionVisible){
-//                s.classList.add('ativo')
+//                s.classList.add('active')
 //           }
 //      })
 // }
 
-// window.addEventListener('scroll', animaScroll)

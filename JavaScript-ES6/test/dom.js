@@ -1,14 +1,14 @@
 const hrefPagina = location.href;
 console.log(hrefPagina);
 
-const elementoAtivo = document.querySelector('.ativo')
+const elementoactive = document.querySelector('.active')
 
-if(elementoAtivo) console.log(elementoAtivo.classList[1])
-else console.log('Nao existe class ativo')
+if(elementoactive) console.log(elementoactive.classList[1])
+else console.log('Nao existe class active')
 
 
 function callbackteste(){
-     console.log('clicou em ', elementoAtivo.innerHTML)
+     console.log('clicou em ', elementoactive.innerHTML)
 }
 
-elementoAtivo.addEventListener('click', callbackteste)
+elementoactive.addEventListener('click', callbackteste)
