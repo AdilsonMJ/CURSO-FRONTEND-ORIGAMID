@@ -504,36 +504,3 @@
 
 // },0)
 // console.log(amount)
-
-
-          // FUNCTION
-
-// Call 
-const car = {
-     brand: 'ford',
-     year: 2010,
-}
-
-function descriptionCar ( speed ) {
-     console.log(this.brand + ' ' + this.year + ' ' + speed)
-}
-
-descriptionCar() // Underfined undefined
-descriptionCar.call() // undefined undefined
-descriptionCar.call({brand: 'honda', year: 2020}, 120) // honda 2020 120
-
-// const car1 = ['fiat', 'ford', 'fiat', 'bmw']
-// const fruit = ['banana', 'melon', 'orange']
-// // car1.forEach((item) => {
-// //      console.log(item)
-// // })
-// car1.forEach.call(fruit, (item) => {
-//      console.log(item)
-// })
-
-function DomSelector(selector){
-     this.element = document.querySelector(selector);
-}
-
-const ul = new DomSelector('ul')
-console.log(ul.element)
