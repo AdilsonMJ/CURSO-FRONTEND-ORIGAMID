@@ -1,4 +1,5 @@
 // var, let and const 
+console.log("DATE TYPE")
 
 var name = 'Adilson';
 var age = 28;
@@ -41,9 +42,10 @@ console.log(food) // Return Ice Cream
           var MyAger = 27
 
 // => set 5 variable without attribute
-          let number;
+      /*    let number;
           let ager;
           let food;
           let girlFriend;
           let country;
+                    */
 
