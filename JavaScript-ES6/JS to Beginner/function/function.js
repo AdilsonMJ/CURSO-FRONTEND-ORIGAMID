@@ -119,7 +119,8 @@ console.log(soma5("teste"))  // teste11
 console.log(soma5(1,2,3))// 6
 console.log(soma5(0,0,0))
 
-
+// This pode variar, depende de como chamou a funcao.
+// Se tiver usando arrow function , o this nao muda.
 
 
 
